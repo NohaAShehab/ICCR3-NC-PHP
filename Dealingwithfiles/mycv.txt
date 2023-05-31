@@ -1,0 +1,6 @@
+gdm:x:125:130:Gnome Display Manager:/var/lib/gdm3:/bin/false
+noha:x:1000:1000:noha,,,:/home/noha:/bin/bash
+systemd-coredump:x:999:999:systemd Core Dumper:/:/usr/sbin/nologin
+mysql:x:126:133:MySQL Server,,,:/nonexistent:/bin/false
+postgres:x:127:134:PostgreSQL administrator,,,:/var/lib/postgresql:/bin/bash
+sbt:x:998:998:sbt daemon-user:/home/sbt:/bin/false

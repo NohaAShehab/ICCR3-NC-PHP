@@ -1,0 +1,13 @@
+whoopsie:x:120:125::/nonexistent:/bin/false
+colord:x:121:126:colord colour management daemon,,,:/var/lib/colord:/usr/sbin/nologin
+geoclue:x:122:127::/var/lib/geoclue:/usr/sbin/nologin
+pulse:x:123:128:PulseAudio daemon,,,:/var/run/pulse:/usr/sbin/nologin
+gnome-initial-setup:x:124:65534::/run/gnome-initial-setup/:/bin/false
+gdm:x:125:130:Gnome Display Manager:/var/lib/gdm3:/bin/false
+noha:x:1000:1000:noha,,,:/home/noha:/bin/bash
+systemd-coredump:x:999:999:systemd Core Dumper:/:/usr/sbin/nologin
+mysql:x:126:133:MySQL Server,,,:/nonexistent:/bin/false
+postgres:x:127:134:PostgreSQL administrator,,,:/var/lib/postgresql:/bin/bash
+sbt:x:998:998:sbt daemon-user:/home/sbt:/bin/false
+mongodb:x:128:65534::/home/mongodb:/usr/sbin/nologin
+_flatpak:x:130:141:Flatpak system-wide installation helper,,,:/nonexistent:/usr/sbin/nologin
